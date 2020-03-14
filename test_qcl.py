@@ -160,8 +160,8 @@ plt.plot(Xdata,  init_predict, 'g-.')
 plt.plot(Xdata, Ydata, 'bs')
 plt.plot(Xdata, best_predict, 'r-')
 plt.legend(("init_predict", "target","predict"), loc='best')
-plt.xlabel('Epoch')
-plt.ylabel('Loss')
+plt.xlabel('X')
+plt.ylabel('Y')
 plt.show()
 
 
